@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22BE6DE0180701BE003853AE /* WTATagStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BE6DDF180701BE003853AE /* WTATagStringBuilder.m */; };
+		7DF3497F1743E67300D4718E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF3497E1743E67300D4718E /* UIKit.framework */; };
+		7DF349811743E67300D4718E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF349801743E67300D4718E /* Foundation.framework */; };
+		7DF349831743E67300D4718E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF349821743E67300D4718E /* CoreGraphics.framework */; };
+		7DF349891743E67300D4718E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DF349871743E67300D4718E /* InfoPlist.strings */; };
+		7DF3498B1743E67300D4718E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3498A1743E67300D4718E /* main.m */; };
+		7DF3498F1743E67300D4718E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3498E1743E67300D4718E /* AppDelegate.m */; };
+		7DF349911743E67300D4718E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF349901743E67300D4718E /* Default.png */; };
+		7DF349931743E67300D4718E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF349921743E67300D4718E /* Default@2x.png */; };
+		7DF349951743E67300D4718E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DF349941743E67300D4718E /* Default-568h@2x.png */; };
+		7DF349981743E67300D4718E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF349961743E67300D4718E /* MainStoryboard.storyboard */; };
+		7DF3499B1743E67300D4718E /* WTAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3499A1743E67300D4718E /* WTAViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22BE6DDE180701BE003853AE /* WTATagStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTATagStringBuilder.h; path = ../../../Classes/WTATagStringBuilder.h; sourceTree = "<group>"; };
+		22BE6DDF180701BE003853AE /* WTATagStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTATagStringBuilder.m; path = ../../../Classes/WTATagStringBuilder.m; sourceTree = "<group>"; };
+		7DF3497B1743E67300D4718E /* WTTagStringDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTTagStringDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF3497E1743E67300D4718E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7DF349801743E67300D4718E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7DF349821743E67300D4718E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7DF349861743E67300D4718E /* WTTagStringDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WTTagStringDemo-Info.plist"; sourceTree = "<group>"; };
+		7DF349881743E67300D4718E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7DF3498A1743E67300D4718E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DF3498C1743E67300D4718E /* WTTagStringDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WTTagStringDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7DF3498D1743E67300D4718E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DF3498E1743E67300D4718E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DF349901743E67300D4718E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7DF349921743E67300D4718E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7DF349941743E67300D4718E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7DF349971743E67300D4718E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7DF349991743E67300D4718E /* WTAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAViewController.h; sourceTree = "<group>"; };
+		7DF3499A1743E67300D4718E /* WTAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DF349781743E67300D4718E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF3497F1743E67300D4718E /* UIKit.framework in Frameworks */,
+				7DF349811743E67300D4718E /* Foundation.framework in Frameworks */,
+				7DF349831743E67300D4718E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DF349721743E67300D4718E = {
+			isa = PBXGroup;
+			children = (
+				7DF349841743E67300D4718E /* WTATagStringBuilder */,
+				7DF3497D1743E67300D4718E /* Frameworks */,
+				7DF3497C1743E67300D4718E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF3497C1743E67300D4718E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF3497B1743E67300D4718E /* WTTagStringDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DF3497D1743E67300D4718E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DF3497E1743E67300D4718E /* UIKit.framework */,
+				7DF349801743E67300D4718E /* Foundation.framework */,
+				7DF349821743E67300D4718E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DF349841743E67300D4718E /* WTATagStringBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				7DF349961743E67300D4718E /* MainStoryboard.storyboard */,
+				7DF349991743E67300D4718E /* WTAViewController.h */,
+				7DF3499A1743E67300D4718E /* WTAViewController.m */,
+				7DF349A41743E6B800D4718E /* WTATagStringBuilder */,
+				7DF349851743E67300D4718E /* Supporting Files */,
+			);
+			name = WTATagStringBuilder;
+			path = MTTagStringDemo;
+			sourceTree = "<group>";
+		};
+		7DF349851743E67300D4718E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DF3498D1743E67300D4718E /* AppDelegate.h */,
+				7DF3498E1743E67300D4718E /* AppDelegate.m */,
+				7DF349861743E67300D4718E /* WTTagStringDemo-Info.plist */,
+				7DF349871743E67300D4718E /* InfoPlist.strings */,
+				7DF3498A1743E67300D4718E /* main.m */,
+				7DF3498C1743E67300D4718E /* WTTagStringDemo-Prefix.pch */,
+				7DF349901743E67300D4718E /* Default.png */,
+				7DF349921743E67300D4718E /* Default@2x.png */,
+				7DF349941743E67300D4718E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DF349A41743E6B800D4718E /* WTATagStringBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				22BE6DDE180701BE003853AE /* WTATagStringBuilder.h */,
+				22BE6DDF180701BE003853AE /* WTATagStringBuilder.m */,
+			);
+			name = WTATagStringBuilder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DF3497A1743E67300D4718E /* WTATagStringBuilderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF3499E1743E67300D4718E /* Build configuration list for PBXNativeTarget "WTATagStringBuilderDemo" */;
+			buildPhases = (
+				7DF349771743E67300D4718E /* Sources */,
+				7DF349781743E67300D4718E /* Frameworks */,
+				7DF349791743E67300D4718E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTATagStringBuilderDemo;
+			productName = MTTagStringDemo;
+			productReference = 7DF3497B1743E67300D4718E /* WTTagStringDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DF349731743E67300D4718E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Harang Ju";
+			};
+			buildConfigurationList = 7DF349761743E67300D4718E /* Build configuration list for PBXProject "WTTagStringDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DF349721743E67300D4718E;
+			productRefGroup = 7DF3497C1743E67300D4718E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DF3497A1743E67300D4718E /* WTATagStringBuilderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DF349791743E67300D4718E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF349891743E67300D4718E /* InfoPlist.strings in Resources */,
+				7DF349911743E67300D4718E /* Default.png in Resources */,
+				7DF349931743E67300D4718E /* Default@2x.png in Resources */,
+				7DF349951743E67300D4718E /* Default-568h@2x.png in Resources */,
+				7DF349981743E67300D4718E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DF349771743E67300D4718E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BE6DE0180701BE003853AE /* WTATagStringBuilder.m in Sources */,
+				7DF3498B1743E67300D4718E /* main.m in Sources */,
+				7DF3498F1743E67300D4718E /* AppDelegate.m in Sources */,
+				7DF3499B1743E67300D4718E /* WTAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DF349871743E67300D4718E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF349881743E67300D4718E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7DF349961743E67300D4718E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF349971743E67300D4718E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DF3499C1743E67300D4718E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DF3499D1743E67300D4718E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DF3499F1743E67300D4718E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTTagStringDemo/WTTagStringDemo-Prefix.pch";
+				INFOPLIST_FILE = "MTTagStringDemo/WTTagStringDemo-Info.plist";
+				PRODUCT_NAME = WTTagStringDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7DF349A01743E67300D4718E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTTagStringDemo/WTTagStringDemo-Prefix.pch";
+				INFOPLIST_FILE = "MTTagStringDemo/WTTagStringDemo-Info.plist";
+				PRODUCT_NAME = WTTagStringDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DF349761743E67300D4718E /* Build configuration list for PBXProject "WTTagStringDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF3499C1743E67300D4718E /* Debug */,
+				7DF3499D1743E67300D4718E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF3499E1743E67300D4718E /* Build configuration list for PBXNativeTarget "WTATagStringBuilderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF3499F1743E67300D4718E /* Debug */,
+				7DF349A01743E67300D4718E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DF349731743E67300D4718E /* Project object */;
+}
