@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'WTATagStringBuilder'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.summary      = 'A tool for build attributed strings using custom tags.'
   s.homepage     = 'https://github.com/willowtreeapps/WTATagStringBuilder'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
