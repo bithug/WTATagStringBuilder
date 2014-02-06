@@ -71,7 +71,8 @@
             }
         }
         
-        NSString *workingString = [[self string] copy];
+//        NSString *workingString = [[self string] copy];
+        NSString *workingString = [attributedString string];
         
         for (NSString *tag in [[self tags] allKeys])
         {
@@ -108,7 +109,7 @@
                 [attributedString replaceCharactersInRange:NSMakeRange(startLocation, [startTag length])
                                                 withString:@""];
                 
-                workingString = [attributedString string];
+//                workingString = [attributedString string];
             }
             
         }
