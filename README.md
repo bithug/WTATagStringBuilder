@@ -7,7 +7,7 @@ You do this using tags like "The sky is \<tag>blue\</tag>" and setting attribute
 
 ###Example
 ``` objc
-WTATagStringBuilder* tagString = [[WTTagStringBuilder alloc] initWithString:@"The quick brown fox <TAG>jumped</TAG>"];
+WTATagStringBuilder* tagString = [[WTATagStringBuilder alloc] initWithString:@"The quick brown fox <TAG>jumped</TAG>"];
 [tagString addGlobalAttribute:NSFontAttributeName 
                         value:[UIFont fontWithName:@"Helvetica-Light" size:20]];
 [tagString addAttribute:NSUnderlineStyleAttributeName
